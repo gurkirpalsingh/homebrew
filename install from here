@@ -1,0 +1,10 @@
+Here is  the link to install it:
+
+Press Ctrl + Space on mac
+copy below command to get install the howebrew:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+To do brew updates:
+
+brew update
