@@ -1,0 +1,31 @@
+Correct path configuration:
+
+export PATH="/usr/local/bin:$PATH"
+
+
+-----------------------------------------------------------
+#### IF ANY ERROR TO PATH CONFIGURATION ###
+
+##add correct environmental variable to your mac:
+
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+
+## activate drew docker:
+
+source .bash_profile
+
+## check if it is correct:
+
+/usr/bin/open ~/.bash_profile
+
+## Activate your changes:
+
+source .bash_profile
+
+## Replace the path:
+
+#REPPLACE
+export PATH="/usr/local/bin:$PATH"
+
+#WITH
+export PATH=$PATH:/opt/homebrew/bin
